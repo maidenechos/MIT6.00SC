@@ -114,12 +114,74 @@ returns `"ab"`
 By this we can deduce that the operator `+` is **overloaded**.  **Overloaded Operators** have a meaning that depends on the type of the operands.
 
 ## Commands ##
-## Variables ##
-## Assignment ##
+
+**Program or Scripts**: These are sequence of commands, each commands telling the interpreter to do something.  
+ex:- 
+````
+print type(5.6)
+````
+## Variables & Assignment ##
+Consider this example, 
+
+````
+x = 3
+````
+The above expression is an **assignment** expression, and `x` is a **variable**. In Python, a variable is just a name for an object.
+
+An **assignment** expression, binds a variable with a value/object.
+
 ## Input ##
+
+To receive input from a keyboard we use `raw_input`
+There are two type of input statement in Python2, 
+
+* `raw_input`, only one present in Python 3,  it outputs all the input as strings. 
+* `input`
+
+**NOTE:-** Be careful python shell does print the quotes around the strings in shell.
+
 ## Straight Line and Branching Program ##
+
+All the program seen till now are **Straight Line Program**, which is executing a sequence of commands one after another without making any deviations.
+
+### Conditional Statement ###
+Conditional statements are used to make decision about the flow of a programs. using this words.  
+* `if`
+* `else`
+* `elif` : else if
+
+
+ex:-
+
+````
+if x%2 == 0:
+    print "Even"
+else:
+    print "Odd"    
+````
+The operator `==` is used to do a comparison.
+We can also nest one condition inside another condition as shown below...:- 
+
+````
+if x%2 == 0:
+    print "Even"
+else:
+    if x % 3 != 0
+        print "Hello"
+    print "Odd"    
+````
+Here is what an `if` constructs does:-
+* Checks the condition, if it is true executes the `if ` block,
+* Else block is executed
+* It will either execute the `if` block or the `else` block but never both.
+* The indentation is very important in python.  Because of this the visual structure is following the semantic structure. 
+
 ## Looping Construct ##
+The looping construct  is called the 
+
+
 ## Turing Completeness ##
+An program that can be written 
 ## Conditionals ##
 ## Nesting ##
 
