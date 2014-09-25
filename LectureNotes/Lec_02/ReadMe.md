@@ -177,14 +177,15 @@ Here is what an `if` constructs does:-
 * The indentation is very important in python.  Because of this the visual structure is following the semantic structure. 
 
 ## Looping Construct ##
-The looping construct  is called the 
+When we add loops to a programming language, these programing language belongs to a class of programming language called **Turing Complete**. The concept of Loops are called **iteration**.  
+With loops, we can execute a same instructions multiple times.
 
+Here is a simple loops.
 
-## Turing Completeness ##
-An program that can be written 
-## Conditionals ##
-## Nesting ##
-
+````
+while ans*ans*ans < abs(x):
+    ans = ans + 1
+``
 
 
 
